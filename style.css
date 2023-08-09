@@ -1,0 +1,52 @@
+.header{
+    background-color: rgb(241, 161, 161);
+    height: 4em;
+    width: 100%;
+    box-shadow: 2em rgb(255, 109, 109);
+    padding-top: 1em;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 10em;
+    margin-left: 3em;
+}
+.title{
+    display: inline-block;
+    margin-top: -2em;
+    color: rgb(117, 9, 9);
+}
+.nav{
+    float: right;
+    width: 25em;
+}
+ul{
+    list-style-type: none;
+    width: 20em;
+}
+.inline{
+    display: inline-block;
+    margin-right: 0em;
+    font-weight: bolder;
+    padding: 0em;
+    color: rgb(117, 19, 19);
+}
+.inline:hover{
+    color: white;
+}
+.services{
+    list-style-type: disc;
+    border: solid;
+    width: fit-content;
+}
+.h4{
+    font-weight: bolder;
+}
+.vision{
+    text-align: center;    
+}
+.div{
+    margin-left: 35%;
+}
