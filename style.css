@@ -22,7 +22,6 @@ body{
 }
 .nav{
     float: right;
-    width: 25em;
 }
 
 ul{
@@ -35,11 +34,13 @@ ul{
     margin-right: 0em;
     font-weight: bolder;
     padding: 0em;
+    padding-left: 0.5em;
     color: rgb(0, 0, 0);
+    text-decoration: underline;
 }
 
 .inline:hover{
-    color: rgb(221, 14, 14);
+    color: rgb(209, 3, 3);
 }
 
 .services{
@@ -63,7 +64,7 @@ section{
     border: solid rgb(170, 170, 170);
     width: 10em;
     border-radius: 3em;
-    box-shadow: 5em rgb(32, 1, 1);
+    box-shadow: 10em rgb(32, 1, 1);
     color: rgb(31, 1, 1);
     font-weight: 100;
     vertical-align: top;
@@ -110,7 +111,7 @@ h5{
 .footer nav{
     position: absolute;
     top: 3em;
-    left: 72.5%;
+    left: 66%;
 }
 
 .footer div{
@@ -123,9 +124,14 @@ h5{
 
 .iconDiv{
     float: right;
+    font-size: 1.5em;
+    padding: 1em;
+    padding-inline-end: 5em;
 }
 
 .fa-brands{
-    margin-left: 50%;
-    font-size: 1.5em;
+    margin-left: 3em;
+}
+.footerLogo{
+    background-color: white;
 }
