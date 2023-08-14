@@ -1,0 +1,131 @@
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 4em;
+    width: 100%;
+    box-shadow: 20em rgb(100, 1, 1);
+    padding-top: 1em;
+    outline: 3em rgb(100, 1, 1);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 235, 235);
+}
+.logo{
+    width: 10em;
+    margin-left: 3em;
+}
+.title{
+    display: inline-block;
+    margin-top: -2em;
+    color: rgb(117, 9, 9);
+}
+.nav{
+    float: right;
+    width: 25em;
+}
+
+ul{
+    list-style-type: none;
+    width: 20em;
+}
+
+.inline{
+    display: inline-block;
+    margin-right: 0em;
+    font-weight: bolder;
+    padding: 0em;
+    color: rgb(0, 0, 0);
+}
+
+.inline:hover{
+    color: rgb(221, 14, 14);
+}
+
+.services{
+    list-style-type: disc;
+    width: 7em;
+}
+
+.h4{
+    font-weight: bolder;
+    margin-bottom: 0em;
+    width: fit-content;
+    margin-left: 22%;
+}
+.div{
+    margin-left: 33%;
+}
+section{
+    display: inline-block;
+    margin-right: 0em;
+    padding: 1em;
+    border: solid rgb(170, 170, 170);
+    width: 10em;
+    border-radius: 3em;
+    box-shadow: 5em rgb(32, 1, 1);
+    color: rgb(31, 1, 1);
+    font-weight: 100;
+    vertical-align: top;
+}
+.paragraph-section{
+    border: 1px solid white;
+    background-color: white;
+    width: 23em;
+    border-radius: 3em;
+    text-align: justify;
+    font-size: large;
+    color: rgb(117, 9, 9);
+    box-shadow: 2em brown;
+}
+.service-div{
+    margin-left: 30%;
+    margin-top: 0em;
+}
+
+
+h5{
+    padding-left: 2em;
+    border: 3em solid rgb(117, 9, 9);
+    border-radius: 3em;
+    background-color: rgb(117, 9, 9);
+    color: white;
+    margin-top: -1.5em;
+    width: 7em;
+    margin-left: -1.5em;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+}
+
+.footer{
+    margin-top: 20em;
+    width: 100%;
+    height: 10em;
+    background-color: black;
+    color: white;
+    padding-top: 3em;
+    position: relative;
+}
+
+.footer nav{
+    position: absolute;
+    top: 3em;
+    left: 72.5%;
+}
+
+.footer div{
+    width: fit-content;   
+}
+
+.footer ul li{
+    color: white;
+}
+
+.iconDiv{
+    float: right;
+}
+
+.fa-brands{
+    margin-left: 50%;
+    font-size: 1.5em;
+}
