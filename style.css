@@ -46,6 +46,7 @@ ul{
 .services{
     list-style-type: disc;
     width: 7em;
+    padding-left: 1em;
 }
 
 .h4{
@@ -62,10 +63,11 @@ section{
     margin-right: 0em;
     padding: 1em;
     border: solid rgb(170, 170, 170);
-    width: 10em;
+    width: 7em;
     border-radius: 3em;
     box-shadow: 10em rgb(32, 1, 1);
     color: rgb(31, 1, 1);
+    background-color: white;
     font-weight: 100;
     vertical-align: top;
 }
@@ -86,13 +88,14 @@ section{
 
 
 h5{
-    padding-left: 2em;
+    padding-left: 1.9em;
+    padding-right: -1em;
     border: 3em solid rgb(117, 9, 9);
     border-radius: 3em;
     background-color: rgb(117, 9, 9);
     color: white;
     margin-top: -1.5em;
-    width: 7em;
+    width: 3.5em;
     margin-left: -1.5em;
     border-bottom-left-radius: 0em;
     border-bottom-right-radius: 0em;
