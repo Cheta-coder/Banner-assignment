@@ -9,6 +9,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(255, 235, 235);
 }
 .logo{
     width: 10em;
@@ -21,26 +22,31 @@ body{
 }
 .nav{
     float: right;
-    width: 25em;
 }
+
 ul{
     list-style-type: none;
     width: 20em;
 }
+
 .inline{
     display: inline-block;
     margin-right: 0em;
     font-weight: bolder;
     padding: 0em;
-    color: rgb(117, 19, 19);
+    padding-left: 0.5em;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
 }
+
 .inline:hover{
-    color: white;
+    color: rgb(209, 3, 3);
 }
+
 .services{
     list-style-type: disc;
     width: 7em;
-   
+    padding-left: 1em;
 }
 
 .h4{
@@ -57,14 +63,16 @@ section{
     margin-right: 0em;
     padding: 1em;
     border: solid rgb(170, 170, 170);
-    width: 10em;
+    width: 7em;
     border-radius: 3em;
-    box-shadow: 5em rgb(32, 1, 1);
+    box-shadow: 10em rgb(32, 1, 1);
     color: rgb(31, 1, 1);
+    background-color: white;
     font-weight: 100;
+    vertical-align: top;
 }
 .paragraph-section{
-    border: 1px solid black;
+    border: 1px solid white;
     background-color: white;
     width: 23em;
     border-radius: 3em;
@@ -77,18 +85,22 @@ section{
     margin-left: 30%;
     margin-top: 0em;
 }
+
+
 h5{
-    padding-left: 2em;
+    padding-left: 1.9em;
+    padding-right: -1em;
     border: 3em solid rgb(117, 9, 9);
     border-radius: 3em;
     background-color: rgb(117, 9, 9);
     color: white;
     margin-top: -1.5em;
-    width: 7em;
+    width: 3.5em;
     margin-left: -1.5em;
     border-bottom-left-radius: 0em;
     border-bottom-right-radius: 0em;
 }
+
 .footer{
     margin-top: 20em;
     width: 100%;
@@ -98,22 +110,31 @@ h5{
     padding-top: 3em;
     position: relative;
 }
+
 .footer nav{
     position: absolute;
     top: 3em;
-    left: 72.5%;
-
+    left: 66%;
 }
+
 .footer div{
     width: fit-content;   
 }
+
 .footer ul li{
     color: white;
 }
+
 .iconDiv{
     float: right;
-}
-.fa-brands{
-    margin-left: 50%;
     font-size: 1.5em;
+    padding: 1em;
+    padding-inline-end: 5em;
+}
+
+.fa-brands{
+    margin-left: 3em;
+}
+.footerLogo{
+    background-color: white;
 }
